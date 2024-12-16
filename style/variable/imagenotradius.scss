@@ -1,0 +1,20 @@
+img{
+    border-radius: 0px;
+}
+h6{
+    display: flex;
+    justify-content: center;
+}
+
+#bordered{
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px;
+}
+
+#rebor{
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -225,6 +225,28 @@ h3 {
   text-align: center;
 }
 
+#orange {
+  color: orange !important;
+}
+
+#blue {
+  color: rgb(0, 157, 255) !important;
+}
+
+#red {
+  color: red !important;
+}
+
+#green {
+  color: green !important;
+}
+
+#yes {
+  text-align: center;
+  color: blue;
+  margin-top: 25px;
+}
+
 #rightside {
   width: auto;
 }
@@ -302,6 +324,54 @@ aside {
   box-shadow: 0px 1px 10px 0px;
 }
 
+#titleline {
+  text-align: center;
+  color: white;
+}
+
+#mail {
+  font-size: 24px;
+  color: white;
+  margin-top: -5px;
+}
+
+#mail:hover {
+  padding: 5px;
+  color: grey;
+}
+
+#whatsapp {
+  font-size: 27px;
+  color: green;
+}
+
+#whatsapp:hover {
+  padding: 5px;
+  color: rgb(7, 183, 7);
+}
+
+#phone {
+  font-size: 22px;
+  color: red;
+  margin-top: 3px;
+}
+
+#phone:hover {
+  padding: 5px;
+  color: rgba(210, 9, 9, 0.763);
+}
+
+#overlink {
+  margin: 25px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#contactme {
+  margin-top: 100px;
+}
+
 #copy {
   color: red;
   font-size: 10px;
@@ -312,6 +382,28 @@ aside {
   color: rgb(6, 6, 136);
   font-size: 30px;
   font-weight: bolder;
+}
+
+img {
+  border-radius: 0px;
+}
+
+h6 {
+  display: flex;
+  justify-content: center;
+}
+
+#bordered {
+  border: 1px solid blue;
+  padding: 5px;
+  margin: 5px;
+}
+
+#rebor {
+  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
