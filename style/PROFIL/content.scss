@@ -16,6 +16,7 @@
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     border-left: none;
+    margin-left: -20px;
 
 }
 
@@ -23,4 +24,8 @@
     text-align: center;
     background-image: url(/photo/kity.jpg);
     background-size: cover;
+}
+#rightside p{
+    color: grey;
+    font-size: 14px;
 }

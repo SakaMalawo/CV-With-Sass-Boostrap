@@ -1,0 +1,119 @@
+
+
+.title {
+    color:rgb(7, 7, 138);
+}
+.paragraph{
+    color: black;
+}
+
+.pa{
+    color: rgb(4, 4, 113);
+    text-align: center;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+#rw h3{
+    color: orange;
+}
+#rw h6{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 25px;
+    color: rgb(8, 8, 115);
+}
+#rw p{
+    color: grey;
+    padding: 25px;
+    font-size: 14px;
+}
+.info{
+    color: grey;
+    font-size: 14px;
+    list-style-type: none;
+}
+.imgal{
+    width: 100px;
+    height: 100px;
+}
+
+.imgfl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.imgfl img{
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    border: 1px solid orange;
+    border-radius: 30px;
+    background-color: #ada7a7;
+
+}
+.imgfl img:hover{
+    padding: 5px;
+    background-color: orange;
+}
+.yah{
+    background-color: rgba(0, 195, 255, 0.796);
+
+}
+.tag{
+    color: orange;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.chall{
+
+    color: white;
+    font-size: 15px;
+
+}
+.chall:hover{
+    padding: 5px;
+    cursor: pointer;
+}
+.gui{
+    font-size: 34px;
+    color: orange;
+}
+.bring{
+    color: rgba(0, 195, 255, 0.982);
+    font-size: 16px;
+}
+.bring:hover{
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.lien{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.lien a:hover{
+    padding: 10px;
+}
+
+#insta{
+    font-size: 100px;
+    color: rgb(184, 10, 184);
+}
+#fb{
+    font-size: 100px;
+    color: rgb(48, 48, 235);
+}
+#lin{
+    font-size: 100px;
+    color: rgb(6, 6, 182);
+}
+#git{
+    font-size: 100px;
+    color: rgb(12, 18, 12);
+}
+

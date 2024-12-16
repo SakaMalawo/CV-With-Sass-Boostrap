@@ -1,6 +1,6 @@
 img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border: 2px solid orange;
   border-radius: 120px;
   margin-left: 25px;
@@ -43,10 +43,177 @@ ul li a:hover {
   cursor: pointer;
 }
 
+p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 20px;
+  color: white;
+}
+
+#pres {
+  background-image: url(./photo/kity.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.sp {
+  background-color: rgba(0, 0, 255, 0.482);
+  padding: 5px;
+  border-left: 3px solid blue;
+}
+
+.sp:hover {
+  padding: 5px;
+  color: orange;
+  background-color: rgb(6, 6, 113);
+  border-left: 5px solid rgb(0, 179, 255);
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(160, 149, 50);
+}
+
+.title {
+  color: rgb(7, 7, 138);
+}
+
+.paragraph {
+  color: black;
+}
+
+.pa {
+  color: rgb(4, 4, 113);
+  text-align: center;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+#rw h3 {
+  color: orange;
+}
+
+#rw h6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 25px;
+  color: rgb(8, 8, 115);
+}
+
+#rw p {
+  color: grey;
+  padding: 25px;
+  font-size: 14px;
+}
+
+.info {
+  color: grey;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.imgal {
+  width: 100px;
+  height: 100px;
+}
+
+.imgfl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imgfl img {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  border: 1px solid orange;
+  border-radius: 30px;
+  background-color: #ada7a7;
+}
+
+.imgfl img:hover {
+  padding: 5px;
+  background-color: orange;
+}
+
+.yah {
+  background-color: rgba(0, 195, 255, 0.796);
+}
+
+.tag {
+  color: orange;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.chall {
+  color: white;
+  font-size: 15px;
+}
+
+.chall:hover {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.gui {
+  font-size: 34px;
+  color: orange;
+}
+
+.bring {
+  color: rgba(0, 195, 255, 0.982);
+  font-size: 16px;
+}
+
+.bring:hover {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.lien {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.lien a:hover {
+  padding: 10px;
+}
+
+#insta {
+  font-size: 100px;
+  color: rgb(184, 10, 184);
+}
+
+#fb {
+  font-size: 100px;
+  color: rgb(48, 48, 235);
+}
+
+#lin {
+  font-size: 100px;
+  color: rgb(6, 6, 182);
+}
+
+#git {
+  font-size: 100px;
+  color: rgb(12, 18, 12);
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+ol li {
+  list-style: none;
 }
 
 h3 {
@@ -76,12 +243,18 @@ h3 {
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
   border-left: none;
+  margin-left: -20px;
 }
 
 #rightside p {
   text-align: center;
   background-image: url(/photo/kity.jpg);
   background-size: cover;
+}
+
+#rightside p {
+  color: grey;
+  font-size: 14px;
 }
 
 body {
@@ -93,6 +266,8 @@ body {
   right: 0;
   overflow-x: hidden;
   scrollbar-width: none;
+  height: auto;
+  width: auto;
 }
 
 aside {
@@ -100,9 +275,24 @@ aside {
 }
 
 .sect {
-  background-color: rgb(4, 4, 125);
+  background-color: rgb(6, 6, 91);
   height: 1200px;
   width: 400px;
+  border-top: 5px solid blue;
+  border-right: 15px solid rgb(0, 0, 68);
+}
+
+.footer {
+  padding: 25px;
+  margin: 65px;
+  background-color: blue;
+  margin-top: 200px;
+  box-sizing: border-box;
+}
+
+.footer h4 {
+  font-size: 10px;
+  display: inline;
 }
 
 /*# sourceMappingURL=style.css.map */
