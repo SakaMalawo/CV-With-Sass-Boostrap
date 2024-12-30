@@ -1,31 +1,38 @@
-h3{
-    color: transparent;
-    background-color: transparent;
-    font-size: 35px;
-    background: linear-gradient(to right, rgb(60, 0, 255), rgb(255, 0, 89));
-    -webkit-background-clip: text;
+#profile{
+    color: grey;
+    font-size: 55px;
     text-align: center;
 
 }
 
-#orange{
-    color: orange !important;
-}
-#blue{
-    color: rgb(0, 157, 255) !important;
+#intro{
+    margin-top: 35px;
+    font-size: 20px !important;
+    background-color: transparent !important;
+    color: transparent !important;
+    background: linear-gradient(to right, rgb(0, 38, 255), rgb(249, 11, 11)) !important;
+    -webkit-background-clip: text !important;
+    
 }
 
-#red{
-    color: red !important;
+#blue{
+    background-color: transparent !important;
+    color: transparent !important;
+    background: linear-gradient(to right, rgb(249, 11, 11), rgb(0, 38, 255)) !important;
+    -webkit-background-clip: text !important;
+    text-align: center;
 }
-#green{
-    color: green !important;
-}
+
 
 #yes{
     text-align: center;
-    color: blue;
+    background-color: transparent !important;
+    color: transparent !important;
+    background: linear-gradient(to right, rgb(230, 6, 226),rgb(0, 162, 255)) !important;
+    -webkit-background-clip: text !important;
     margin-top: 25px;
+    font-size: 35px;
+    padding: 25px;
 }
 
 #bluetitle{
