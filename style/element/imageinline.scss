@@ -91,33 +91,6 @@
     padding: 5px;
 }
 
-.lien{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 25px;
-}
-.lien a:hover{
-    padding: 10px;
-}
-
-#insta{
-    font-size: 100px;
-    color: rgb(184, 10, 184);
-}
-#fb{
-    font-size: 100px;
-    color: rgb(48, 48, 235);
-}
-#lin{
-    font-size: 100px;
-    color: rgb(6, 6, 182);
-}
-#git{
-    font-size: 100px;
-    color: rgb(12, 18, 12);
-}
-
 #bggrey{
     border: 1px solid grey; 
     border-radius: 25px; 

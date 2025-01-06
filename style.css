@@ -1,3 +1,4 @@
+@charset "UTF-8";
 img {
   width: 200px;
   height: 200px;
@@ -175,37 +176,6 @@ h1 {
   padding: 5px;
 }
 
-.lien {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 25px;
-}
-
-.lien a:hover {
-  padding: 10px;
-}
-
-#insta {
-  font-size: 100px;
-  color: rgb(184, 10, 184);
-}
-
-#fb {
-  font-size: 100px;
-  color: rgb(48, 48, 235);
-}
-
-#lin {
-  font-size: 100px;
-  color: rgb(6, 6, 182);
-}
-
-#git {
-  font-size: 100px;
-  color: rgb(12, 18, 12);
-}
-
 #bggrey {
   border: 1px solid grey;
   border-radius: 25px;
@@ -316,6 +286,41 @@ aside {
   float: left;
 }
 
+.lien {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.lien a:hover {
+  padding: 10px;
+}
+
+#insta {
+  font-size: 50px;
+  color: rgb(184, 10, 184);
+}
+
+#fb {
+  font-size: 50px;
+  color: rgb(48, 48, 235);
+}
+
+#lin {
+  font-size: 50px;
+  color: rgb(6, 6, 182);
+}
+
+#git {
+  font-size: 50px;
+  color: rgb(12, 18, 12);
+}
+
+.lien i {
+  margin: 5px;
+}
+
 #sect {
   background-color: rgb(6, 6, 91);
   height: 1200px;
@@ -327,8 +332,8 @@ aside {
 #footer {
   padding: 25px;
   margin: 65px;
-  background-color: blue;
-  margin-top: 150px;
+  background-color: grey;
+  margin-top: 170px;
   box-sizing: border-box;
 }
 
@@ -400,13 +405,10 @@ aside {
 img {
   border-radius: 20px;
   border: 4px solid orange !important;
+  margin-right: 5px;
 }
 
-img:hover {
-  padding: 5px;
-}
-
-h6 {
+ù h6 {
   display: flex;
   justify-content: center;
 }
@@ -424,6 +426,16 @@ h6 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+p {
+  color: grey !important;
+  font-size: 12px !important;
+}
+
+strong {
+  color: grey;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
